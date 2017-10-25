@@ -11,6 +11,9 @@
 |
 */
 
+// Practice
+Route::any('/practice/{n?}', 'PracticeController@index');
+
 
 
 // Route::get('/', function () {
